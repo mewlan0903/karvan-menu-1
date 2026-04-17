@@ -1,0 +1,749 @@
+{
+  "restaurantName": "Karvan Uygur Mutfağı",
+  "restaurantNameUg": "كارۋان ئۇيغۇر تائامخانىسى",
+  "categories": [
+    {
+      "id": "baslangic",
+      "name": "Başlangıç",
+      "nameUg": "باشلامچى",
+      "description": "Sofraya önce gelen, iştah açan küçük lezzetler",
+      "descriptionUg": "داستۇرخانغا ئالدى بىلەن كېلىدىغان ئىشتىھا ئاچقۇچى تائاملار",
+      "items": [],
+      "subgroups": [
+        {
+          "id": "dasturhan",
+          "name": "Dasturhan Hazineleri",
+          "nameUg": "داستۇرخان خەزىنىلىرى",
+          "items": [
+            {
+              "id": "samsa",
+              "name": "Samsa",
+              "nameUg": "سامسا",
+              "description": "",
+              "price": 60,
+              "image": "/images/samsa.png"
+            },
+            {
+              "id": "manta",
+              "name": "Manta",
+              "nameUg": "مانتا",
+              "description": "",
+              "price": 40,
+              "image": "/images/manta.png"
+            },
+            {
+              "id": "yutaza",
+              "name": "Yutaza",
+              "nameUg": "يۇتازا",
+              "description": "",
+              "price": 40,
+              "image": "/images/yutaza.png"
+            },
+            {
+              "id": "etli-nan",
+              "name": "Etli Nan",
+              "nameUg": "گوش نان",
+              "description": "",
+              "price": 350,
+              "image": "/images/Etli nan.png"
+            },
+            {
+              "id": "misir-krep",
+              "name": "Mısır Krep",
+              "nameUg": "قوناق قۇيۇتمىچى",
+              "description": "",
+              "price": 380,
+              "image": "/images/mısır krep.jpeg"
+            },
+            {
+              "id": "rangpiza",
+              "name": "Rangpiza",
+              "nameUg": "راڭپىزا",
+              "description": "",
+              "price": 75,
+              "image": "/images/Rangpiza.jpeg"
+            },
+            {
+              "id": "sade-makarna-pilav",
+              "name": "Sade Makarna",
+              "nameUg": "ئاق چۆپ",
+              "description": "",
+              "price": 50,
+              "image": "/images/sade makarna .jpeg"
+            },
+            {
+              "id": "sade-pilav",
+              "name": "Sade Pilav",
+              "nameUg": "ئاق گۈرۈچ",
+              "description": "",
+              "price": 50,
+              "image": "/images/sade pilav.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ana-yemekler",
+      "name": "Ana Yemekler",
+      "nameUg": "ئاساسىي تائاملار",
+      "description": "İpek Yolu'nun kalbinden; el açması eriştelerden közde kavurmalara",
+      "descriptionUg": "يىپەك يولىنىڭ مەركىزىدىن؛ قولدا ئېچىلغان ئۈگرىلەردىن كاۋاپ قورۇمىلىرىغىچە",
+      "icon": "🍛",
+      "items": [],
+      "subgroups": [
+        {
+          "id": "eristelikler",
+          "name": "Lağman · Sömen · Suykaş",
+          "nameUg": "لەغمەن · سۆمەن · سۇيقاش",
+          "items": [
+            {
+              "id": "ramen",
+              "name": "Ramen",
+              "nameUg": "كالا گۆشى ئۈگرىسى",
+              "description": "",
+              "price": 180,
+              "image": "/images/RAMEN.png"
+            },
+            {
+              "id": "ev-lagmen",
+              "name": "Ev Lağmen",
+              "nameUg": "ئۆي لەغمىنى",
+              "description": "",
+              "price": 390,
+              "image": "/images/ev lagmenı .png"
+            },
+            {
+              "id": "oglak-ozel-eriste",
+              "name": "Oğlak Özel Erişte",
+              "nameUg": "ئوغلاق چوپ",
+              "description": "",
+              "price": 780,
+              "image": "/images/oglak Özel Erişte.png"
+            },
+            {
+              "id": "karvan-ozel-lagman",
+              "name": "Karvan Özel Lağman",
+              "nameUg": "كارۋان ئالاھىدە لەغمىنى",
+              "description": "",
+              "price": 390,
+              "image": "/images/karvan özel lagmen.png"
+            },
+            {
+              "id": "ozel-lagmen",
+              "name": "Özel Lağmen",
+              "nameUg": "ئالاھىدە لەغمەن",
+              "description": "",
+              "price": 280,
+              "image": "/images/özel lağmen.png"
+            },
+            {
+              "id": "tavuk-lagmen",
+              "name": "Tavuk Lağmen",
+              "nameUg": "توخۇ لەغمىنى",
+              "description": "",
+              "price": 320,
+              "image": "/images/tavuk lagmen.png"
+            },
+            {
+              "id": "kuzu-eti-lagmen",
+              "name": "Kuzu Eti Lağmen",
+              "nameUg": "قوي گۆشى لەغمىنى",
+              "description": "",
+              "price": 280,
+              "image": "/images/kuzu eti lağmen.png"
+            },
+            {
+              "id": "suyru-lagmen",
+              "name": "Suyru Lağmen",
+              "nameUg": "سۇيۇق لەغمەن",
+              "description": "",
+              "price": 250,
+              "image": "/images/suyru lagmen .png"
+            },
+            {
+              "id": "ispanak-lagmen",
+              "name": "Ispanak Lağmen",
+              "nameUg": "پالەك لەغمىنى",
+              "description": "",
+              "price": 280,
+              "image": "/images/ıspanaklı lagmen.png"
+            },
+            {
+              "id": "kebap-lagman",
+              "name": "Kebap Lağman",
+              "nameUg": "كاۋاپ لەغمەن",
+              "description": "",
+              "price": 400,
+              "image": "/images/Kebap Lağmen.jpeg"
+            },
+            {
+              "id": "princ-unu-makarna-kavurmasi",
+              "name": "Prinç Unu Makarna Kavurması",
+              "nameUg": "گۈرۈچ ئۇنى چۆپ قورۇمىسى",
+              "description": "",
+              "price": 280,
+              "image": "/images/Prinç Unu Makarna Kavurması.jpeg"
+            },
+            {
+              "id": "karvan-ozel-somen",
+              "name": "Karvan Özel Somen",
+              "nameUg": "كارۋان ئالاھىدە سومەن",
+              "description": "",
+              "price": 390,
+              "image": "/images/karvan özel somen.png"
+            },
+            {
+              "id": "gemben-somen",
+              "name": "Gemben Somen",
+              "nameUg": "گەمبەن سومەن",
+              "description": "",
+              "price": 280,
+              "image": "/images/gemben somen.png"
+            },
+            {
+              "id": "tohsun-somen",
+              "name": "Tohsun Somen",
+              "nameUg": "توخسۇن سومەن",
+              "description": "",
+              "price": 280,
+              "image": "/images/tohsun somen.png"
+            },
+            {
+              "id": "menper-somen",
+              "name": "Menper Somen",
+              "nameUg": "مەنپەر سومەن",
+              "description": "",
+              "price": 280,
+              "image": "/images/manper somen.png"
+            },
+            {
+              "id": "marcan-somen",
+              "name": "Marcan Somen",
+              "nameUg": "مارجان سومەن",
+              "description": "",
+              "price": 280,
+              "image": "/images/marcan somen.png"
+            },
+            {
+              "id": "bildircinli-suykas",
+              "name": "Bıldırcınlı Suykaş",
+              "nameUg": "بۆدۆنە سۇيقاش",
+              "description": "",
+              "price": 280,
+              "image": "/images/bıldırcınlı suykaş.png"
+            },
+            {
+              "id": "benshir-cocure",
+              "name": "Benşir (Çöçüre)",
+              "nameUg": "چۆچۈرە",
+              "description": "",
+              "price": 245,
+              "image": "/images/benşir.png"
+            }
+          ]
+        },
+        {
+          "id": "pilavlar",
+          "name": "Pilavlar",
+          "nameUg": "پولو",
+          "items": [
+            {
+              "id": "ozel-kavurmali-pilav",
+              "name": "Özel Kavurmalı Pilav",
+              "nameUg": "ئالاھىدە قورۇمىلىق پولۇ",
+              "description": "",
+              "price": 380,
+              "image": "/images/özl kavurma pilav.jpeg"
+            },
+            {
+              "id": "suyru-pilav",
+              "name": "Suyru Pilav",
+              "nameUg": "سۇيۇق پولۇ",
+              "description": "",
+              "price": 280,
+              "image": "/images/suyru pilav.jpeg"
+            },
+            {
+              "id": "kuzu-eti-pilav",
+              "name": "Kuzu Eti Pilav",
+              "nameUg": "قوي گۆشى پولۇ",
+              "description": "",
+              "price": 300,
+              "image": "/images/kuzu eti pilav.jpeg"
+            },
+            {
+              "id": "ispanak-pilav",
+              "name": "Ispanak Pilav",
+              "nameUg": "پالەك پولۇ",
+              "description": "",
+              "price": 280,
+              "image": "/images/ispanak pilav.jpeg"
+            },
+            {
+              "id": "tavuk-pilav",
+              "name": "Tavuk Pilav",
+              "nameUg": "توخۇ پولۇ",
+              "description": "",
+              "price": 200,
+              "image": "/images/tavuk pilav.jpeg"
+            }
+          ]
+        },
+        {
+          "id": "kavurmalar",
+          "name": "Kavurmalar",
+          "nameUg": "قورۇمىلار",
+          "items": [
+            {
+              "id": "ozel-yumurta-kavurmasi",
+              "name": "Özel Yumurta Kavurması",
+              "nameUg": "توخۇم شۇخلا قورۇمىسى",
+              "description": "",
+              "price": 280,
+              "image": "/images/Özel Yumurta Kavurması.jpeg"
+            },
+            {
+              "id": "yumurta-ispanak-kavurmasi",
+              "name": "Yumurta Ispanak Kavurması",
+              "nameUg": "تۇخۇم پالەك قورۇمىسى",
+              "description": "",
+              "price": 395,
+              "image": "/images/yumurta ıspanak kavurması.jpeg"
+            },
+            {
+              "id": "brokoli-kavurmasi",
+              "name": "Brokoli Kavurması",
+              "nameUg": "بىرۇككولى قورۇمىسى",
+              "description": "",
+              "price": 250,
+              "image": "/images/brokolı kavurması.jpeg"
+            },
+            {
+              "id": "tofu-kavurmasi",
+              "name": "Tofu Kavurması",
+              "nameUg": "پۇرچاق ئۇيۇتمىسى قورۇمىسى",
+              "description": "",
+              "price": 280,
+              "image": "/images/Tofu Kavurması.jpeg"
+            },
+            {
+              "id": "ucken-tofu-kavurmasi",
+              "name": "Üçken Tofu Kavurması",
+              "nameUg": "ئۆچبۇرجەك دۇفۇ قورۇمىسى",
+              "description": "",
+              "price": 280,
+              "image": "/images/Üçken Tofu Kavurması.jpeg"
+            },
+            {
+              "id": "acili-fasulye-kavurmasi",
+              "name": "Acılı Fasülye Kavurması",
+              "nameUg": "ئاچچىق پۇرچاق قورۇمىسى",
+              "description": "",
+              "price": 250,
+              "image": "/images/Acılı Fasülye Kavurması11.jpeg"
+            },
+            {
+              "id": "patates-kavurmasi",
+              "name": "Patates Kavurması",
+              "nameUg": "بەرەڭگە قورۇمىسى",
+              "description": "",
+              "price": 250,
+              "image": "/images/Patates Kavurması.jpeg"
+            },
+            {
+              "id": "patlican-kavurmasi",
+              "name": "Patlıcan Kavurması",
+              "nameUg": "پېدىگەن قورۇمىسى",
+              "description": "",
+              "price": 280,
+              "image": "/images/patlıcan kavurması.jpeg"
+            },
+            {
+              "id": "yesil-soganli-et-kavurmasi",
+              "name": "Yeşil Soğanlı Et Kavurması",
+              "nameUg": "يېشىل پىياز گۆش قورۇمىسى",
+              "description": "",
+              "price": 450,
+              "image": "/images/Yeşil Soğanlı Et Kavurması.jpeg"
+            },
+            {
+              "id": "laziru",
+              "name": "Laziru",
+              "nameUg": "لازىرۇ",
+              "description": "",
+              "price": 450,
+              "image": "/images/laziru.jpeg"
+            },
+            {
+              "id": "siyah-mantar-kavurmasi",
+              "name": "Siyah Mantar Kavurması",
+              "nameUg": "قارا قۇلاق قورۇمىسى",
+              "description": "",
+              "price": 450,
+              "image": "/images/Siyah Mantar Kavurması.jpeg"
+            },
+            {
+              "id": "mantar-kavurmasi",
+              "name": "Mantar Kavurması",
+              "nameUg": "يۇمىلاق موگۇ قورۇمىسى",
+              "description": "",
+              "price": 450,
+              "image": "/images/mantar kavurması.jpeg"
+            },
+            {
+              "id": "asya-mantari-kavurmasi",
+              "name": "Asya Mantarı Kavurması",
+              "nameUg": "يايلاق موگۇ قورۇمىسى",
+              "description": "",
+              "price": 450,
+              "image": "/images/asYa Mantarı Kavurması.jpeg"
+            },
+            {
+              "id": "asya-ozel-kavurmasi",
+              "name": "Asya Özel Kavurması",
+              "nameUg": "يېشىللىك پىنتوزا قورۇمىسى",
+              "description": "",
+              "price": 450,
+              "image": "/images/aSya Özel Kavurması.jpeg"
+            },
+            {
+              "id": "kuru-mantar-kavurmasi",
+              "name": "Kuru Mantar Kavurması",
+              "nameUg": "قۇرۇق موگۇ قورۇمىسى",
+              "description": "",
+              "price": 395,
+              "image": "/images/kuru mantar kavurması.jpeg"
+            },
+            {
+              "id": "lazici",
+              "name": "Lazici",
+              "nameUg": "لازىجى",
+              "description": "",
+              "price": 590,
+              "image": "/images/Lazici.jpeg"
+            },
+            {
+              "id": "patatesli-tavuk-kavurmasi",
+              "name": "Patatesli Tavuk Kavurması",
+              "nameUg": "بەرەڭگىلى توخۇ قورۇمىسى",
+              "description": "",
+              "price": 550,
+              "image": "/images/Patates tavuk Kavurması.jpeg"
+            },
+            {
+              "id": "ozel-soslu-kavurma",
+              "name": "Özel Soslu Kavurma",
+              "nameUg": "بېلىق تەمىدىكى سەي قورۇمىسى",
+              "description": "",
+              "price": 450,
+              "image": "/images/Özel Soslu Kavurma.jpeg"
+            },
+            {
+              "id": "acili-tavuk-kavurmasi",
+              "name": "Acılı Tavuk Kavurması",
+              "nameUg": "ئاچچىق توخۇ قورۇمىسى",
+              "description": "",
+              "price": 590,
+              "image": "/images/acili tavuk kavurmasi .jpeg"
+            },
+            {
+              "id": "kuru-tavuk-kavurmasi",
+              "name": "Kuru Tavuk Kavurması",
+              "nameUg": "قورۇغاق توخۇ قورۇمىسى",
+              "description": "",
+              "price": 620,
+              "image": "/images/Kuru Tavuk Kavurması.jpeg"
+            },
+            {
+              "id": "fistikli-tavuk-kavurmasi",
+              "name": "Fıstıklı Tavuk Kavurması",
+              "nameUg": "مېغىزلىق توخۇ قورۇمىسى",
+              "description": "",
+              "price": 380,
+              "image": "/images/Fıstıklı Tavuk Kavurması.jpeg"
+            },
+            {
+              "id": "kuzu-eti-kavurmasi",
+              "name": "Kuzu Eti Kavurması",
+              "nameUg": "قوي گۆشى قورۇمىسى",
+              "description": "",
+              "price": 1200,
+              "image": "/images/kuzu eti kavurması .jpeg"
+            },
+            {
+              "id": "dana-kuyrugu-kavurmasi",
+              "name": "Dana Kuyruğu Kavurması",
+              "nameUg": "كالا قۇيرۇقى قورۇمىسى",
+              "description": "",
+              "price": 1200,
+              "image": "/images/dana kuyruğu kavurması.jpeg"
+            },
+            {
+              "id": "demir-tabak-et-kavurmasi",
+              "name": "Demir Tabak Et Kavurması",
+              "nameUg": "تىبەن",
+              "description": "",
+              "price": 450,
+              "image": "/images/demır tabak et kavurması.jpeg"
+            },
+            {
+              "id": "demir-tabakli-balik-kavurmasi",
+              "name": "Demir Tabaklı Balık Kavurması",
+              "nameUg": "تۆمۈر تەخسە بېلىق قورۇمىسى",
+              "description": "",
+              "price": 1200,
+              "image": "/images/demır tabaklı balık kavurması.png"
+            },
+            {
+              "id": "balik-kavurmasi",
+              "name": "Balık Kavurması",
+              "nameUg": "بېلىق قورۇمىسى",
+              "description": "",
+              "price": 685,
+              "image": "/images/balık kavurması .jpeg"
+            },
+            {
+              "id": "kuru-balik-kavurmasi",
+              "name": "Kuru Balık Kavurması",
+              "nameUg": "گەنزارۇ",
+              "description": "",
+              "price": 620,
+              "image": "/images/kuru balık kavurması.jpeg"
+            },
+            {
+              "id": "acili-balik-corbasi",
+              "name": "Acılı Balık Çorbası",
+              "nameUg": "ئاچچىق بېلىق شورپىسى",
+              "description": "",
+              "price": 985,
+              "image": "/images/acılı balık çorbası.png"
+            },
+            {
+              "id": "hotpot-balik",
+              "name": "Hotpot Balık",
+              "nameUg": "خوت پوت بېلىق",
+              "description": "",
+              "price": 1180,
+              "image": "/images/hotpot balık.jpeg"
+            },
+            {
+              "id": "xutixa",
+              "name": "Xutixa",
+              "nameUg": "شۇتاشا",
+              "description": "",
+              "price": 1180,
+              "image": "/images/Xutixa.png"
+            },
+            {
+              "id": "cumaci-makarna",
+              "name": "Cumaci Makarna",
+              "nameUg": "جۇماجى چۆپ",
+              "description": "",
+              "price": 450,
+              "image": "/images/Cumaci Makarna.png"
+            },
+            {
+              "id": "acili-karides",
+              "name": "Acılı Karides",
+              "nameUg": "ئاچچىق راك شورپىسى",
+              "description": "",
+              "price": 985,
+              "image": "/images/Acılı Karides.png"
+            },
+            {
+              "id": "xucunuru",
+              "name": "Xücünürü",
+              "nameUg": "شۇجۇنورۇ",
+              "description": "",
+              "price": 890,
+              "image": "/images/xücürü.jpeg"
+            },
+            {
+              "id": "sago",
+              "name": "Sago",
+              "nameUg": "ساگو",
+              "description": "",
+              "price": 690,
+              "image": "/images/sago.png"
+            },
+            {
+              "id": "nengo",
+              "name": "Nengo",
+              "nameUg": "نەنگو",
+              "description": "",
+              "price": 890,
+              "image": "/images/nengo.jpeg"
+            },
+            {
+              "id": "gengo",
+              "name": "Gengo",
+              "nameUg": "گەنگو",
+              "description": "",
+              "price": 985,
+              "image": "/images/Gengo.png"
+            },
+            {
+              "id": "kelle-paca",
+              "name": "Kelle Paça",
+              "nameUg": "قوي پاچىقى",
+              "description": "",
+              "price": 80,
+              "image": "/images/kelle paça.jpeg"
+            },
+            {
+              "id": "kelle-paca-kavurmasi",
+              "name": "Kelle Paça Kavurması",
+              "nameUg": "قوي پاچىقى قورۇمىسى",
+              "description": "",
+              "price": 800,
+              "image": "/images/kelle paça kavurması.jpeg"
+            }
+          ]
+        },
+        {
+          "id": "kebablar",
+          "name": "Kebablar",
+          "nameUg": "كاۋاپلار",
+          "items": [
+            {
+              "id": "sis-kebap",
+              "name": "Şiş Kebap",
+              "nameUg": "زىخ كاۋاپ",
+              "description": "",
+              "price": 100,
+              "image": "/images/şiş kebab.webp"
+            },
+            {
+              "id": "ciger-kebap",
+              "name": "Ciğer Kebap",
+              "nameUg": "جىگەر كاۋاپ",
+              "description": "",
+              "price": 100,
+              "image": "/images/ciger-sis-kebab.jpg"
+            },
+            {
+              "id": "bobrek-kebap",
+              "name": "Böbrek Kebap",
+              "nameUg": "بۆرەك كاۋاپ",
+              "description": "",
+              "price": 100,
+              "image": "/images/böbrek kebab.png"
+            },
+            {
+              "id": "mencing-kebap",
+              "name": "Mencing Kebap",
+              "nameUg": "مەنجەك كاۋاپ",
+              "description": "",
+              "price": 40,
+              "image": "/images/mencang keabb.png"
+            },
+            {
+              "id": "kaburga-kebap",
+              "name": "Kaburga Kebap",
+              "nameUg": "قۇۋۇرغا كاۋاپ",
+              "description": "",
+              "price": 995,
+              "image": "/images/kaburga kebab.png"
+            },
+            {
+              "id": "bel-kebap",
+              "name": "Bel Kebap",
+              "nameUg": "بەل كاۋاپ",
+              "description": "",
+              "price": 995,
+              "image": "/images/bel kebab.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salatalar",
+      "name": "Salatalar",
+      "nameUg": "سالاتلار",
+      "description": "Taze sebzelerle hazırlanan, yemekleri tamamlayan salatalar",
+      "descriptionUg": "يېڭى كۆكتاتلار بىلەن تەييارلانغان، تائاملارنى تولۇقلايدىغان سالاتلار",
+      "icon": "🥗",
+      "items": [
+        {
+          "id": "salata",
+          "name": "Salata",
+          "nameUg": "سالاتا",
+          "description": "",
+          "price": 78,
+          "image": "/images/salata.jpeg"
+        },
+        {
+          "id": "havuc-salatasi",
+          "name": "Havuç Salatası",
+          "nameUg": "سەۋزە سەي",
+          "description": "",
+          "price": 78,
+          "image": "/images/Havuç Sey.jpeg"
+        },
+        {
+          "id": "kerin-salatasi",
+          "name": "Kerin Salatası",
+          "nameUg": "قېرىن سەي",
+          "description": "",
+          "price": 130,
+          "image": "/images/Kerinsey.jpeg"
+        },
+        {
+          "id": "taxlik-salatasi",
+          "name": "Taxlik Salatası",
+          "nameUg": "تاشلىق سەي",
+          "description": "",
+          "price": 130,
+          "image": "/images/Taxlik Sey.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "icecekler",
+      "name": "İçecekler",
+      "nameUg": "ئىچىملىكلەر",
+      "description": "Yemeğin yanında serinleten ve tatlandıran içecekler",
+      "descriptionUg": "تائامنىڭ يېنىدا سالقىن ۋە تەملىك قىلىدىغان ئىچىملىكلەر",
+      "icon": "🍵",
+      "items": [
+        {
+          "id": "su",
+          "name": "Su",
+          "description": "",
+          "price": 30,
+          "image": "/images/su 1.png"
+        },
+        {
+          "id": "ayran",
+          "name": "Ayran",
+          "description": "",
+          "price": 20,
+          "image": "/images/ayran 1.png"
+        },
+        {
+          "id": "nigde-gazozu",
+          "name": "Niğde Gazozu",
+          "description": "",
+          "price": 30,
+          "image": "/images/niğde gazozu 1.png"
+        },
+        {
+          "id": "sariyer-kola",
+          "name": "Sarıyer Kola",
+          "description": "",
+          "price": 35,
+          "image": "/images/sarıyer kola 1.png"
+        },
+        {
+          "id": "didi-soguk-cay",
+          "name": "Didi Soğuk Çay",
+          "description": "",
+          "price": 35,
+          "image": "/images/didi soğuk çay 1.png"
+        }
+      ]
+    }
+  ]
+}

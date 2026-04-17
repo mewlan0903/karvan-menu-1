@@ -1,26 +1,283 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1a0f08;
+  --foreground: #f5e6d3;
+  --accent: #c9a55c;
+  --accent-dark: #8b6f2e;
+  --card: #2a1810;
+  --border: #3d2817;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-accent: var(--accent);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+.bg-texture {
+  background-image:
+    radial-gradient(circle at 20% 0%, rgba(201, 165, 92, 0.04) 0%, transparent 40%),
+    radial-gradient(circle at 80% 50%, rgba(201, 165, 92, 0.03) 0%, transparent 40%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'><g fill='%23c9a55c' fill-opacity='0.025'><circle cx='20' cy='20' r='1'/><circle cx='60' cy='50' r='1'/><circle cx='120' cy='30' r='1'/><circle cx='170' cy='70' r='1'/><circle cx='40' cy='110' r='1'/><circle cx='100' cy='140' r='1'/><circle cx='160' cy='160' r='1'/><circle cx='30' cy='180' r='1'/></g></svg>");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-dark);
+  border-radius: 3px;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { transform: translateY(24px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes shimmer {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+.animate-fadeIn { animation: fadeIn 0.2s ease-out; }
+.animate-slideUp { animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
+.animate-fadeInUp { animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+@keyframes welcomeZoom {
+  from { transform: scale(1.15); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+@keyframes welcomeText {
+  0% { opacity: 0; transform: translateY(20px) scale(0.95); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+.animate-welcomeZoom { animation: welcomeZoom 3s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.animate-welcomeText { animation: welcomeText 1s cubic-bezier(0.16, 1, 0.3, 1) 0.4s both; }
+
+@keyframes welcomeFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.2; }
+  50% { transform: translate(15px, -20px) scale(1.1); opacity: 0.4; }
+}
+@keyframes welcomeFloat2 {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.15; }
+  50% { transform: translate(-10px, 15px) scale(1.15); opacity: 0.3; }
+}
+@keyframes welcomeSparkle {
+  0%, 100% { transform: scale(0); opacity: 0; }
+  50% { transform: scale(6); opacity: 1; }
+}
+@keyframes welcomeSparkle2 {
+  0%, 100% { transform: scale(0); opacity: 0; }
+  40% { transform: scale(4); opacity: 0.8; }
+  100% { transform: scale(0); opacity: 0; }
+}
+@keyframes welcomeGlow {
+  0%, 100% { text-shadow: 0 0 10px rgba(201, 165, 92, 0); }
+  50% { text-shadow: 0 0 20px rgba(201, 165, 92, 0.5), 0 0 40px rgba(201, 165, 92, 0.2); }
+}
+@keyframes welcomeLineExpand {
+  from { width: 0; }
+  to { width: 200px; }
+}
+@keyframes welcomeSubtext {
+  0% { opacity: 0; letter-spacing: 0.6em; }
+  100% { opacity: 0.8; letter-spacing: 0.3em; }
+}
+.animate-welcomeFloat { animation: welcomeFloat 4s ease-in-out infinite; }
+.animate-welcomeFloat2 { animation: welcomeFloat2 5s ease-in-out infinite 0.5s; }
+.animate-welcomeSparkle { animation: welcomeSparkle 2s ease-in-out infinite; }
+.animate-welcomeSparkle2 { animation: welcomeSparkle2 2.5s ease-in-out infinite 0.8s; }
+.animate-welcomeGlow { animation: welcomeGlow 2s ease-in-out infinite; }
+.animate-welcomeLineTop { animation: welcomeLineExpand 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both; }
+.animate-welcomeLineBottom { animation: welcomeLineExpand 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.6s both; }
+.animate-welcomeSubtext { animation: welcomeSubtext 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.8s both; }
+
+.divider-ornament {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--accent);
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+}
+.divider-ornament::before,
+.divider-ornament::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--accent-dark), transparent);
+}
+
+/* Gold shimmer sweeping across main title */
+@keyframes goldShine {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+.gold-shine {
+  background-image: linear-gradient(
+    90deg,
+    #c9a55c 0%,
+    #c9a55c 40%,
+    #fff4d4 50%,
+    #c9a55c 60%,
+    #c9a55c 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: goldShine 4s linear infinite;
+}
+
+/* Ken Burns effect on item card images */
+@keyframes kenBurns {
+  0% { transform: scale(1) translate(0, 0); }
+  50% { transform: scale(1.08) translate(-1%, -1%); }
+  100% { transform: scale(1) translate(0, 0); }
+}
+.ken-burns {
+  animation: kenBurns 14s ease-in-out infinite;
+}
+
+/* Category divider line draws in */
+@keyframes lineExpand {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+.line-expand {
+  transform-origin: left center;
+  animation: lineExpand 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Floating gold particles across background */
+@keyframes particleFloat1 {
+  0%, 100% { transform: translate(0, 0); opacity: 0.25; }
+  50% { transform: translate(20px, -40px); opacity: 0.5; }
+}
+@keyframes particleFloat2 {
+  0%, 100% { transform: translate(0, 0); opacity: 0.2; }
+  50% { transform: translate(-25px, 30px); opacity: 0.45; }
+}
+@keyframes particleFloat3 {
+  0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+  50% { transform: translate(15px, 25px); opacity: 0.55; }
+}
+.particle-1 { animation: particleFloat1 9s ease-in-out infinite; }
+.particle-2 { animation: particleFloat2 11s ease-in-out infinite 1s; }
+.particle-3 { animation: particleFloat3 13s ease-in-out infinite 2s; }
+
+/* Modal open: scale + gold halo */
+@keyframes modalPop {
+  0% { transform: scale(0.92) translateY(12px); opacity: 0; box-shadow: 0 0 0 0 rgba(201, 165, 92, 0); }
+  60% { box-shadow: 0 0 60px 10px rgba(201, 165, 92, 0.25); }
+  100% { transform: scale(1) translateY(0); opacity: 1; box-shadow: 0 0 30px 0 rgba(201, 165, 92, 0.1); }
+}
+.animate-modalPop { animation: modalPop 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+/* Gold price tag */
+.price-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.2rem 0.7rem 0.2rem 1.1rem;
+  background: linear-gradient(135deg, #c9a55c 0%, #b8924a 100%);
+  color: #1a0f08;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 4px 999px 999px 4px;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(201, 165, 92, 0.25);
+}
+.price-tag::before {
+  content: "";
+  position: absolute;
+  left: 0.45rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background: #1a0f08;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px rgba(201, 165, 92, 0.3);
+}
+.price-tag-lg {
+  padding: 0.4rem 1rem 0.4rem 1.5rem;
+  font-size: 1.125rem;
+}
+.price-tag-lg::before {
+  left: 0.65rem;
+  width: 8px;
+  height: 8px;
+}
+
+/* Item card gold corners reveal on hover */
+.card-corners { position: absolute; inset: 0; pointer-events: none; }
+.card-corners::before,
+.card-corners::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-color: #c9a55c;
+  border-style: solid;
+  border-width: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+.card-corners::before {
+  top: 6px;
+  left: 6px;
+  border-top-width: 1.5px;
+  border-left-width: 1.5px;
+}
+.card-corners::after {
+  bottom: 6px;
+  right: 6px;
+  border-bottom-width: 1.5px;
+  border-right-width: 1.5px;
+}
+.group:hover .card-corners::before,
+.group:hover .card-corners::after {
+  opacity: 1;
+  width: 22px;
+  height: 22px;
 }
