@@ -30,11 +30,11 @@ export default function ItemModal({ item, onClose }: Props) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-end md:items-center justify-center bg-black/70 backdrop-blur-sm animate-fadeIn"
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fadeIn"
       onClick={onClose}
     >
       <div
-        className="relative w-full md:max-w-lg bg-[#2a1810] border border-[#c9a55c]/30 rounded-t-2xl md:rounded-2xl overflow-hidden max-h-[92vh] flex flex-col animate-modalPop"
+        className="relative w-full md:max-w-lg bg-[#2a1810] border border-[#c9a55c]/30 rounded-2xl overflow-hidden max-h-[92vh] flex flex-col animate-modalPop"
         onClick={(e) => e.stopPropagation()}
       >
         <button
