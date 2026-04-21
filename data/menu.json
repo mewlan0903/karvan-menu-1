@@ -68,7 +68,7 @@
               "name": "Sade Makarna",
               "nameUg": "ئاق چۆپ",
               "description": "",
-              "price": 50,
+              "price": 70,
               "image": "/images/sade makarna .jpeg"
             },
             {
@@ -76,7 +76,7 @@
               "name": "Sade Pilav",
               "nameUg": "ئاق گۈرۈچ",
               "description": "",
-              "price": 50,
+              "price": 70,
               "image": "/images/sade pilav.jpeg"
             }
           ]
@@ -102,7 +102,7 @@
               "name": "Ramen",
               "nameUg": "كالا گۆشى ئۈگرىسى",
               "description": "",
-              "price": 180,
+              "price": 200,
               "image": "/images/RAMEN.png"
             },
             {
@@ -238,7 +238,7 @@
               "name": "Benşir (Çöçüre)",
               "nameUg": "چۆچۈرە",
               "description": "",
-              "price": 245,
+              "price": 360,
               "image": "/images/benşir.png"
             }
           ]
@@ -416,11 +416,19 @@
               "image": "/images/kuru mantar kavurması.jpeg"
             },
             {
+              "id": "kazan-kebap",
+              "name": "Kazan Kebap",
+              "nameUg": "قازان كاۋاپ",
+              "description": "",
+              "price": 595,
+              "image": "/images/Kazan Kebap.jpeg"
+            },
+            {
               "id": "lazici",
               "name": "Lazici",
               "nameUg": "لازىجى",
               "description": "",
-              "price": 590,
+              "price": 640,
               "image": "/images/Lazici.jpeg"
             },
             {
@@ -444,7 +452,7 @@
               "name": "Acılı Tavuk Kavurması",
               "nameUg": "ئاچچىق توخۇ قورۇمىسى",
               "description": "",
-              "price": 590,
+              "price": 640,
               "image": "/images/acili tavuk kavurmasi .jpeg"
             },
             {
@@ -452,7 +460,7 @@
               "name": "Kuru Tavuk Kavurması",
               "nameUg": "قورۇغاق توخۇ قورۇمىسى",
               "description": "",
-              "price": 620,
+              "price": 680,
               "image": "/images/Kuru Tavuk Kavurması.jpeg"
             },
             {
@@ -460,7 +468,7 @@
               "name": "Fıstıklı Tavuk Kavurması",
               "nameUg": "مېغىزلىق توخۇ قورۇمىسى",
               "description": "",
-              "price": 380,
+              "price": 425,
               "image": "/images/Fıstıklı Tavuk Kavurması.jpeg"
             },
             {
@@ -468,7 +476,7 @@
               "name": "Kuzu Eti Kavurması",
               "nameUg": "قوي گۆشى قورۇمىسى",
               "description": "",
-              "price": 1200,
+              "price": 1400,
               "image": "/images/kuzu eti kavurması .jpeg"
             },
             {
@@ -476,7 +484,7 @@
               "name": "Dana Kuyruğu Kavurması",
               "nameUg": "كالا قۇيرۇقى قورۇمىسى",
               "description": "",
-              "price": 1200,
+              "price": 1400,
               "image": "/images/dana kuyruğu kavurması.jpeg"
             },
             {
@@ -564,7 +572,7 @@
               "name": "Sago",
               "nameUg": "ساگو",
               "description": "",
-              "price": 690,
+              "price": 810,
               "image": "/images/sago.png"
             },
             {
@@ -643,7 +651,7 @@
               "name": "Kaburga Kebap",
               "nameUg": "قۇۋۇرغا كاۋاپ",
               "description": "",
-              "price": 995,
+              "price": 1190,
               "image": "/images/kaburga kebab.png"
             },
             {
@@ -651,7 +659,7 @@
               "name": "Bel Kebap",
               "nameUg": "بەل كاۋاپ",
               "description": "",
-              "price": 995,
+              "price": 1190,
               "image": "/images/bel kebab.png"
             }
           ]
