@@ -60,7 +60,7 @@
               "name": "Rangpiza",
               "nameUg": "راڭپىزا",
               "description": "",
-              "price": 75,
+              "price": 85,
               "image": "/images/Rangpiza.jpeg"
             },
             {
@@ -110,7 +110,7 @@
               "name": "Ev Lağmen",
               "nameUg": "ئۆي لەغمىنى",
               "description": "",
-              "price": 390,
+              "price": 250,
               "image": "/images/ev lagmenı .png"
             },
             {
@@ -142,7 +142,7 @@
               "name": "Tavuk Lağmen",
               "nameUg": "توخۇ لەغمىنى",
               "description": "",
-              "price": 320,
+              "price": 200,
               "image": "/images/tavuk lagmen.png"
             },
             {
@@ -150,7 +150,7 @@
               "name": "Kuzu Eti Lağmen",
               "nameUg": "قوي گۆشى لەغمىنى",
               "description": "",
-              "price": 280,
+              "price": 320,
               "image": "/images/kuzu eti lağmen.png"
             },
             {
@@ -174,7 +174,7 @@
               "name": "Kebap Lağman",
               "nameUg": "كاۋاپ لەغمەن",
               "description": "",
-              "price": 400,
+              "price": 450,
               "image": "/images/Kebap Lağmen.jpeg"
             },
             {
@@ -269,7 +269,7 @@
               "name": "Kuzu Eti Pilav",
               "nameUg": "قوي گۆشى پولۇ",
               "description": "",
-              "price": 300,
+              "price": 320,
               "image": "/images/kuzu eti pilav.jpeg"
             },
             {
@@ -500,7 +500,7 @@
               "name": "Demir Tabaklı Balık Kavurması",
               "nameUg": "تۆمۈر تەخسە بېلىق قورۇمىسى",
               "description": "",
-              "price": 1200,
+              "price": 620,
               "image": "/images/demır tabaklı balık kavurması.png"
             },
             {
