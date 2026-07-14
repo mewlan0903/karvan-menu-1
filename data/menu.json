@@ -28,7 +28,7 @@
               "name": "Manta",
               "nameUg": "مانتا",
               "description": "",
-              "price": 40,
+              "price": 50,
               "image": "/images/manta.png"
             },
             {
@@ -36,7 +36,7 @@
               "name": "Yutaza",
               "nameUg": "يۇتازا",
               "description": "",
-              "price": 40,
+              "price": 50,
               "image": "/images/yutaza.png"
             },
             {
@@ -44,7 +44,7 @@
               "name": "Etli Nan",
               "nameUg": "گوش نان",
               "description": "",
-              "price": 350,
+              "price": 450,
               "image": "/images/Etli nan.png"
             },
             {
@@ -60,7 +60,7 @@
               "name": "Rangpiza",
               "nameUg": "راڭپىزا",
               "description": "",
-              "price": 85,
+              "price": 100,
               "image": "/images/Rangpiza.jpeg"
             },
             {
@@ -126,7 +126,7 @@
               "name": "Karvan Özel Lağman",
               "nameUg": "كارۋان ئالاھىدە لەغمىنى",
               "description": "",
-              "price": 390,
+              "price": 490,
               "image": "/images/karvan özel lagmen.png"
             },
             {
@@ -190,7 +190,7 @@
               "name": "Karvan Özel Somen",
               "nameUg": "كارۋان ئالاھىدە سومەن",
               "description": "",
-              "price": 390,
+              "price": 490,
               "image": "/images/karvan özel somen.png"
             },
             {
@@ -619,7 +619,7 @@
               "name": "Şiş Kebap",
               "nameUg": "زىخ كاۋاپ",
               "description": "",
-              "price": 100,
+              "price": 110,
               "image": "/images/şiş kebab.webp"
             },
             {
@@ -635,7 +635,7 @@
               "name": "Böbrek Kebap",
               "nameUg": "بۆرەك كاۋاپ",
               "description": "",
-              "price": 100,
+              "price": 110,
               "image": "/images/böbrek kebab.png"
             },
             {
@@ -679,7 +679,7 @@
           "name": "Salata",
           "nameUg": "سالاتا",
           "description": "",
-          "price": 78,
+          "price": 90,
           "image": "/images/salata.jpeg"
         },
         {
@@ -687,7 +687,7 @@
           "name": "Havuç Salatası",
           "nameUg": "سەۋزە سەي",
           "description": "",
-          "price": 78,
+          "price": 90,
           "image": "/images/Havuç Sey.jpeg"
         },
         {
